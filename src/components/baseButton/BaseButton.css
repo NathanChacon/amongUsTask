@@ -1,0 +1,47 @@
+.basic-button{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: gray;
+}
+
+.basic-btn-disabled{
+    background-color: rgb(90, 90, 90);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.basic-btn-defeat{
+    animation-name: blink-red;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.basic-button:hover{
+    cursor: pointer;
+    background-color: rgb(110, 110, 110);
+}
+
+@keyframes blink-red{
+    0%{
+        background-color: rgb(110, 110, 110);
+    }
+
+    25%{
+        background-color: rgba(255, 0, 0, 0.795);
+    }
+
+    50%{
+        background-color: rgb(110, 110, 110);
+    }
+
+    75%{
+        background-color: rgba(255, 0, 0, 0.795);
+    }
+
+    100%{
+        background-color: rgb(90, 90, 90);
+    }
+}

@@ -1,0 +1,44 @@
+.circle{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+.is-enabled{
+    background-color: #07cf11;
+}
+
+.is-disabled{
+    background-color: #004d00;
+}
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .circle{
+        width: 20px;
+        height: 20px;
+    }
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+    .circle{
+        width: 15px;
+        height: 15px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .circle{
+        width: 15px;
+        height: 15px;
+    }
+    
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .circle{
+        width: 10px;
+        height: 10px;
+    }
+  }

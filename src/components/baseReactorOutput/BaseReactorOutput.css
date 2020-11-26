@@ -1,0 +1,28 @@
+.output-container{
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50px;
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output-screen{
+    width: 80%;
+    height: 75%;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 0.8fr 0.8fr 0.8fr;
+    background-color: black;
+}
+
+.lights-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 8px;
+    width: 80%;
+}
