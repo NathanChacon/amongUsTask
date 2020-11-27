@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/amongUsTask/static/css/main.6ffb2c03.chunk.css",
+    "main.js": "/amongUsTask/static/js/main.7ee4ee60.chunk.js",
+    "main.js.map": "/amongUsTask/static/js/main.7ee4ee60.chunk.js.map",
+    "runtime-main.js": "/amongUsTask/static/js/runtime-main.5038ad39.js",
+    "runtime-main.js.map": "/amongUsTask/static/js/runtime-main.5038ad39.js.map",
+    "static/js/2.0beceaba.chunk.js": "/amongUsTask/static/js/2.0beceaba.chunk.js",
+    "static/js/2.0beceaba.chunk.js.map": "/amongUsTask/static/js/2.0beceaba.chunk.js.map",
+    "static/js/3.1b7331ea.chunk.js": "/amongUsTask/static/js/3.1b7331ea.chunk.js",
+    "static/js/3.1b7331ea.chunk.js.map": "/amongUsTask/static/js/3.1b7331ea.chunk.js.map",
+    "index.html": "/amongUsTask/index.html",
+    "static/css/main.6ffb2c03.chunk.css.map": "/amongUsTask/static/css/main.6ffb2c03.chunk.css.map",
+    "static/js/2.0beceaba.chunk.js.LICENSE.txt": "/amongUsTask/static/js/2.0beceaba.chunk.js.LICENSE.txt",
+    "static/media/button.18d81a66.mp3": "/amongUsTask/static/media/button.18d81a66.mp3",
+    "static/media/defeat.a1164b5f.wav": "/amongUsTask/static/media/defeat.a1164b5f.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5038ad39.js",
+    "static/js/2.0beceaba.chunk.js",
+    "static/css/main.6ffb2c03.chunk.css",
+    "static/js/main.7ee4ee60.chunk.js"
+  ]
+}
