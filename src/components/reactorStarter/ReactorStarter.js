@@ -4,6 +4,8 @@ import BaseReactorInput  from '../baseReactorInput/BaseReactorInput.js'
 import BaseVictoryOverlay from '../baseVictoryOverlay/BaseVictoryOverlay.js'
 import buttonAudio from '../../sounds/button.mp3'
 import defeat from '../../sounds/defeat.wav'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPowerOff } from '@fortawesome/free-solid-svg-icons'
 import React, { useState } from 'react'
 
 function ReactorStarter(){
@@ -230,7 +232,9 @@ function ReactorStarter(){
             <span className="number-victories">
                 <h1>WINS: {numberOfVictories}</h1>
             </span>
-            <button className={isStartDisabled ? 'start-button btn-disabled' : 'start-button'} onClick = {startOutput}>START</button>
+            <button className={isStartDisabled ? 'start-button btn-disabled' : 'start-button'} onClick = {startOutput}>
+                <FontAwesomeIcon className="power-icon" icon={faPowerOff} size="3x" />
+            </button>
             <div className="reactor-panel-container">
                 <BaseReactorOutput squares = {squares} lights = {lights}></BaseReactorOutput>
                 <BaseReactorInput buttons = {buttons} handleInputClick = {handleInputClick} disableButtons = {isAnimating} defeat = {isDefeat}></BaseReactorInput>
