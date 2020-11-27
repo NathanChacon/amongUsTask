@@ -26,3 +26,17 @@
     top: 8px;
     width: 80%;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .output-container{
+        width: 200px;
+        height: 200px;
+    }
+}
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    .output-container{
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -20,25 +20,17 @@
     }
   }
   
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
-    .circle{
-        width: 15px;
-        height: 15px;
-    }
-  }
-  
   @media (min-width: 481px) and (max-width: 767px) {
     .circle{
-        width: 15px;
-        height: 15px;
+        width: 9px;
+        height: 9px;
     }
     
   }
   
   @media (min-width: 320px) and (max-width: 480px) {
     .circle{
-        width: 10px;
-        height: 10px;
+        width: 9px;
+        height: 9px;
     }
   }
