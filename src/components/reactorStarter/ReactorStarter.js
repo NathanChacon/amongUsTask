@@ -69,6 +69,8 @@ function ReactorStarter(){
 
     const [isAnimating, setIsAnimating] = useState(false)
 
+    const [numberOfVictories, setNumberOfVictories] = useState(0)
+
     const audio = new Audio(buttonAudio);
     const defeatAudio = new Audio(defeat);
 
@@ -152,6 +154,7 @@ function ReactorStarter(){
 
     const handleDefeat = () => {
         clearValues()
+        setNumberOfVictories(0)
         setIsStartDisabled(true)
         setIsDefeat(true)
         defeatAudio.play()
@@ -163,6 +166,7 @@ function ReactorStarter(){
 
     const handleVictory = () => {
         clearValues()
+        setNumberOfVictories(number => number + 1)
         setIsVictoryOverlayVisible(true)
     }
 
@@ -223,6 +227,9 @@ function ReactorStarter(){
 
     return (
         <section className="main-container">
+            <span className="number-victories">
+                <h1>WINS: {numberOfVictories}</h1>
+            </span>
             <button className={isStartDisabled ? 'start-button btn-disabled' : 'start-button'} onClick = {startOutput}>START</button>
             <div className="reactor-panel-container">
                 <BaseReactorOutput squares = {squares} lights = {lights}></BaseReactorOutput>
